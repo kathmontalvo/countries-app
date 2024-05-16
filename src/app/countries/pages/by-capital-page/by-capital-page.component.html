@@ -1,0 +1,21 @@
+<h2> By capital </h2>
+<hr>
+
+<div class="row">
+  <div class="col">
+    <!-- search box -->
+    <shared-search-box
+    placeholder="Search by capital"
+    (onValue)="searchByCapital($event)"
+      ></shared-search-box>
+
+  </div>
+</div>
+
+<hr>
+<div class="row">
+  <div class="col">
+
+    <countries-country-table [countries]="countries"></countries-country-table>
+  </div>
+</div>

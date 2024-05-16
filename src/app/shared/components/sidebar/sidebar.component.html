@@ -2,7 +2,7 @@
 <hr>
 
 <ul class="list-group">
-  <li
+  <!-- <li
     routerLink=""
     routerLinkActive="active"
     [routerLinkActiveOptions]="{ exact: true }"
@@ -21,5 +21,30 @@
     routerLinkActive="active"
     class="list-group-item">
     contact
+  </li> -->
+  <li
+    routerLink="countries/by-capital"
+    routerLinkActive="active"
+    [routerLinkActiveOptions]="{ exact: true }"
+    class="list-group-item"
+    role="button"
+    >
+    by capital
+  </li>
+  <li
+    routerLink="countries/by-country"
+    routerLinkActive="active"
+    class="list-group-item"
+    role="button"
+    >
+    by country
+  </li>
+  <li
+    routerLink="countries/by-region"
+    routerLinkActive="active"
+    class="list-group-item"
+    role="button"
+    >
+    by region
   </li>
 </ul>
